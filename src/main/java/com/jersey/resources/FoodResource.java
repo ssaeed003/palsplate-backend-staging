@@ -164,7 +164,6 @@ public class FoodResource {
     public Food save(@Valid Food food) {
         return foodDao.save(food);
     }
-
     /**
      * Update existing Food
      * @param id
